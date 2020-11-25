@@ -1,0 +1,11 @@
+1. Difference between task runners & webpack.
+Ans: Task runners are basically used to automate tasks in a development process. Some of these tasks include compressing JS files, compiling Sass files, watching out for file changes, minifying files and auto-prefixing. Module bundlers take several modules of the application that each have dependencies and bundle them into static assets. Module bundlers perform the task of task runners, and take several steps further.
+
+2. What is a task runner?
+Ans: A JS task runner basically runs commands for you that would otherwise be tedious or impossible. They do things like compile your code from SCSS to CSS or TypeScript to JavaScript. They also do things like copying files from location to location, minifying files for production, running linters for you, and serving your files up from a local port on your computer.
+
+3. What is a webpack?
+Ans: Webpack is a module bundler. Webpack can take care of bundling alongside a separate task runner. However, the line between bundler and task runner has become blurred thanks to community-developed webpack plugins. Sometimes these plugins are used to perform tasks that are usually done outside of webpack, such as cleaning the build directory or deploying the build although you can defer these tasks outside of webpack.
+
+4. Why these things are used?
+Ans: Webpack and Browserify are package bundlers. Basically, they are designed to run through all of a package's dependencies and concatenate their source into one file that (ideally) can be used in a browser. They are important to modern web development, because we use so many libraries that are designed to run with Node.js
