@@ -1,0 +1,19 @@
+{
+  "pokemons": [
+    {
+      "id":1,
+      "rank":"1",
+      "name":"bulbasaur"
+    },
+    {
+      "id":2,
+      "rank":"2",
+      "name":"ivysaur"
+    },
+    {
+      "id":3,
+      "rank":"3",
+      "name":"venusaur"
+    }
+  ]
+}
